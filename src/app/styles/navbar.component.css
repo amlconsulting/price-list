@@ -1,0 +1,26 @@
+img {
+    height: 45px;
+    width: auto;
+}
+
+.navbar {
+    min-height: 75px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.navbar-brand-name > {
+
+  display: inline-block;
+  float: left;
+
+}
+
+.navbar-brand-name > img {
+  display: inline-block;
+  float: left;
+  padding: 0 15px 0 0;
+}

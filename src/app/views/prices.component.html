@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Discounted Pricing</div>
+    <div class="panel-body">
+        <p>Below are my current discounted prices for my LuLaRow inventory. Thanks for stopping by!</p>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of items | async">
+            <span class="badge">${{ item.price }}</span> {{ item.style }}
+        </li>
+    </ul>
+    <div class="panel-footer">
+        <p>NOTE: These prices are only available when shopping from LuLaRoe Lyndsie Lane. They do not represent the price guide provided by LuLaRoe or any other consultants. These prices are subject to change at any time.</p>
+    </div>
+</div>
